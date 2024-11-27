@@ -1,0 +1,208 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+body{
+    height: 100%;
+    background-color: #FAF9F6;
+
+}
+
+
+
+.container{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#generateBtn{
+    position: relative;
+    background-color: #bcab79;
+    width: 275px;
+    height: 10vh;
+    color:#fff;
+    margin-top: 25px;
+    top: 45rem;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 20px 10px;
+    margin-left:57rem;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+#generateBtn:hover{
+    background-color:#f1e1b1;
+    box-sizing: border-box 5px;
+
+}
+
+#quranVerses{
+    top: -40px;
+    display: block;
+    width: 650px;
+    height: 55vh;
+    margin-left:45rem;
+    padding: 2rem;
+    align-items: center;
+    border-radius:10px;
+    font-size: 18px;
+    margin-top: 2rem;
+    position: relative; 
+    
+}
+
+h2{
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    padding-top: 3rem;
+    margin:0;
+    color:#bcab79;
+    text-transform: uppercase;
+    justify-content: center;
+    text-decoration: underline;
+    padding-left: 13rem;
+}
+
+img{
+    width:230px;
+    height:170px;
+    padding:20px 50px;
+}
+
+img:hover{
+    color:rgb(233, 235, 147);
+    border-radius: 100px;
+    box-shadow: 0 5px 10px;
+    transition: 0.5s;
+}
+
+
+nav{
+    font-family: 'poppins';
+    font-size: 24px;
+    padding-top: 1rem;
+    list-style: none;
+    color:#bcab79;
+ }
+
+ nav ul{
+    padding-right: 5rem;
+    list-style: none;
+ }
+
+ nav li{
+    float: right;
+    display:flex;
+    margin:30px;
+}
+
+nav li a{
+    position: relative;
+    color: #fffdf7;
+    background-color:#bcab79;
+    font-weight: bold;
+}
+
+a{
+    padding-top: 1rem;
+    text-decoration: none;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+a:hover{
+    background-color: #d8bd6aee;
+    transition: 0.5s;
+}
+
+
+.faq-section {
+    line-height: 4em;
+    max-width: 1000px;
+    margin: 200px auto;
+    padding: 20px;
+    background-color: #FAF9F6;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.faq-title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.faq-item{
+    border-bottom: 1px solid #ddd;
+    padding: 10px 0;
+}
+
+.faq-question{
+    background: none ;
+    border:none;
+    width: 100%;
+    text-align: left;
+    font-size: 1.2rem;
+    color: #bcab79;
+    cursor:pointer;
+    padding:10px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.faq-question:focus{
+    outline:none;
+}
+
+.icon{
+    font-size: 1.5rem;
+    color: #bcab79;
+}
+
+.faq-answer{
+    padding: 10px;
+    font-size: 1rem;
+    color:#bba257;
+    display:none;
+}
+
+
+.faq-question.active .icon{
+    content: "-";
+}
+
+.faq-answer a{
+    font-size: 16px;
+    background-color: none;
+    padding-left: 0.5rem;
+    font-weight: bold;
+}
+
+.faq-answer a:hover{
+    color:#bba257;
+    background-color:#FAF9F6;
+}
