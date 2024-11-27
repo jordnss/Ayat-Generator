@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+
+body{
+    
+    height: 100vh; 
+    background-color: #FAF9F6;
+}
+
+.container{
+    margin:0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#generateBtn{
+    position: relative;
+    background-color: #bcab79;
+    width: 275px;
+    height: 10vh;
+    color:#fff;
+    margin-top: 25px;
+    top: 43rem;
+    font-size: 22px;
+    cursor: pointer;
+    padding: 20px 10px;
+    margin-left:52rem;
+    align-items: center;
+    border-radius: 20px;
+    justify-content: center;
+
+}
+
+#generateBtn:hover{
+    background-color:#f1e1b1;
+    box-sizing: border-box 5px;
+
+}
+
+#quranVerses{
+    top: -40px;
+    display: block;
+    width: 650px;
+    height: 55vh;
+    margin-left:40rem;
+    padding: 2rem;
+    align-items: center;
+    border-radius:10px;
+    font-size: 18px;
+    margin-top: 2rem;
+    position: relative; 
+    
+}
+
+h2{
+    font-size: 40px;
+    position: relative;
+    display: flex;
+    font-weight: bold;
+    padding-top: 2rem;
+    margin:0;
+    color:#bcab79;
+    text-transform: uppercase;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+img{
+    width:230px;
+    height:170px;
+    padding:20px 50px;
+}
+
+img:hover{
+    color:rgb(233, 235, 147);
+    border-radius: 100px;
+    box-shadow: 0 5px 10px;
+    transition: 0.5s;
+    
+
+}
+
+
