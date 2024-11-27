@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel ="stylesheet" href = "style.css">
+    <title>Ayat Generator by Jordan Blanding</title>
+</head>
+
+ <!-- random quran verse program
+
+    -will need to fetch an API for full quran
+    -user will be able to generate a random verse from quran
+    -will have the arabic and english translaton
+
+
+    11/27/24
+    - add a FAQ section
+        -Will add most frequently asked Questions about Islam to gravitate to the ones who have knowledge of it
+        -Each Question will link to a credible source from the greatest scholars of ISLAM, will add a general answer to the questions and give users a link to clink to learn more.
+
+    -->
+<body>
+
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="#faq-section">FAQ</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container"></div>
+        <!--<div class="image">
+            <a href="#"><img src="images/Allah.webp" alt="Allah"></a>
+        </div>-->
+        
+        <h2>Quran Ayats</h2>
+        <button id="generateBtn">Give me an Ayat!</button>
+        <textarea id="quranVerses" readonly></textarea>
+
+    </div>
+
+
+    <section class="faq-section">
+        <h1 class="faq-title">Frequently Asked Questions</h1>
+        <div class="faq">
+            <buton class="faq-question">
+                What is Islam?
+                <span class="icon"> + </span>
+            </buton>
+            <div class="faq-answer">
+                <p>Understanding Islam Islam is the name of the religion that Muslims follow. People who practice Islam are called Muslims, just like those who practice Christianity are called Christians. The literal meaning of Islam means submission. <a class ="link" href="https://www.whyislam.org/what-is-islam/">Read more...</a></p>
+            </div>
+
+            <buton class="faq-question">
+                What is the Quran?
+                <span class="icon"> + </span>
+            </buton>
+            <div class="faq-answer">
+                <p>The Qur'ān is the holy book of Muslims, preserved in its original form and revealed directly by God to the Prophet Muhammad (peace be upon him), not as his inspired words. <a class ="link" href="https://www.whyislam.org/faqs/">Read more...</a></p>
+            </div>
+
+            <buton class="faq-question">
+                What are the Pillars of Islam?
+                <span class="icon"> + </span>
+            </buton>
+            <div class="faq-answer">
+                <p>The Five Pillars of Islam are the core practices that define the faith. While they do not encompass the entire religion, they are central to a Muslim's life and practice. This article focuses on these foundational practices, rather than the main beliefs of Islam.<a class ="link" href="https://www.whyislam.org/pillars/">Read more...</a></p>
+            </div>
+        </div>
+
+    </section>
+    
+    <script src ="utube.js"></script>
+</body>
+</html>
